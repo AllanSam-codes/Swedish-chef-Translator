@@ -1,0 +1,1 @@
+var serverURl = "https://api.funtranslations.com/translate/chef.json"
