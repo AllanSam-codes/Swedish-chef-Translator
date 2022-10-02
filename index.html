@@ -5,15 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Swedish chef speak</title>
+
 </head>
 
 <body>
     <nav>
-        <header>
-            <h1>Swedish chef Translator</h1>
+        <header class="heading">
+            <h1 class="header-txt"> Swedish Chef Translator <img class="logo" src="images/swedish chef.png"></h1>
         </header>
     </nav>
+    <div class="container">
+        <textarea id="txt-input" placeholder="put your sentence in English here and we will convert into Swedish chef"></textarea>
+        <button class="button" id="btn-translate">How would swedish chef speak</button>
+        <section class="section">
+            <p>Here is your translation👇</p>
+        </section>
+        <div class="output"></div>
+
+    </div>
+
+    <div class="footer">
+        <h4 class="footer-txt container">Convert from English to Swedish chef Translator. The Swedish Chef is a Muppet character that appeared on The Muppet Show.
+            <span>The Swedish Chef does not speak any known language, but his nonsense words are so widley interpreted as Swedish-sounding. So try converting and see what our chef says...bork, bork, bork!</span>
+            <p>You can play this Translator! 👆</p>
+    </div>
+    </h4>
+    <script src="/app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+    body {
+        margin: 0;
+    }
+    
+    .heading {
+        background-color: darkviolet;
+    }
+    
+    .header-txt {
+        text-align: center;
+        margin: auto;
+        margin: 0rem auto 2rem auto;
+        padding: 2rem;
+        height: 10vh;
+        font-size: xx-large;
+        color: cornsilk
+    }
+    
+    .logo {
+        width: 130px;
+        height: 85px;
+    }
+    
+    #txt-input {
+        padding: 2rem;
+        width: 80%;
+        margin: 1rem 3rem;
+    }
+    
+    .container {
+        width: 80vw;
+        margin: 0px auto;
+    }
+    
+    .button {
+        width: 15rem;
+        height: 10vh;
+        padding: 0.5rem;
+        margin: 20px 10rem 0px 20rem;
+        /*margin: auto;*/
+        background-color: darkviolet;
+        color: cornsilk;
+        font-family: Verdana, Geneva;
+    }
+    
+    .section {
+        text-align: center;
+        padding: 1rem;
+        width: 80%;
+        margin: 0px 7rem 5px 2rem;
+        /*margin: 0px 70px;*/
+        /*height: 1rem;*/
+        font-family: Verdana, Geneva;
+        color: var(--dark-blue);
+    }
+    
+    .output {
+        border: 1px solid black;
+        width: 810px;
+        height: 8vh;
+        margin: 0rem auto 0rem auto;
+        padding: 1rem;
+        border-color: midnightblue;
+        background: #fff;
+    }
+    
+    .footer {
+        background-color: darkviolet;
+        color: cornsilk;
+        font-size: medium;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        font-family: 'Courier New', Courier, monospace
+    }
+    
+    .footer-txt {
+        text-align: center;
+        padding-top: 1rem;
+    }
