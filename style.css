@@ -57,9 +57,9 @@
     
     .output {
         border: 1px solid black;
-        width: 810px;
+        width: 84%;
         height: 8vh;
-        margin: 0rem auto 0rem auto;
+        margin: 0px 40px 0px 45px;
         padding: 1rem;
         border-color: midnightblue;
         background: #fff;
@@ -76,5 +76,5 @@
     
     .footer-txt {
         text-align: center;
-        padding-top: 1rem;
+        padding-top: 0.5rem;
     }
