@@ -17,12 +17,12 @@ function getTranslatorURL(input) {
 }
 
 function clickHandler() {
-    var inputText = txtInput.value
+    var inputText = txtInput.value //input 
 
-    fetch(getTranslatorURL(inputText))
+    fetch(getTranslatorURL(inputText)) // processing
         .then(response => response.json())
         .then(json => {
-            var translatedText = json.contents.translated;
+            var translatedText = json.contents.translated; //output
             outputDiv.innerText = translatedText;
         })
         .catch(errorHandler)
