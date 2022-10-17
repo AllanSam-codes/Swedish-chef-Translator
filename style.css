@@ -43,10 +43,11 @@
         height: 10vh;
         padding: 0.5rem;
         margin: 20px 10rem 0px 20rem;
-        /*margin: auto;*/
-        background-color: var(--primary-color);
-        color: cornsilk;
+        border: 1px solid var(--primary-color);
+        background-color: #ffff;
+        color: var(--primary-color);
         font-family: Verdana, Geneva;
+        border-radius: 0.5rem;
     }
     
     .section {
